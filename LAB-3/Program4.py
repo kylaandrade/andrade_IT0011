@@ -1,4 +1,4 @@
-def read_student_info():
+def readstudentinf():
     with open("students.txt", "r") as file:
         contents = file.readlines()
 
@@ -6,4 +6,4 @@ def read_student_info():
         for line in contents:
             print(line.strip())
 
-read_student_info()
+readstudentinf()
